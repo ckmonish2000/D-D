@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.checkbox{
+  display: flex;
+  width:100pt;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+ul{
+  border: 1px solid;
+    padding: 30pt;
+    border-radius: 10pt;
+}
+
+
+.flexed{
+  display: flex;
+  margin-left: 19pt;
+}
+
+.ip{
+  padding: 5pt;
+    border-radius: 5pt;
+    outline: none;
+    border: 0px;
+    transition: all 0.2s linear;
+}
+
+.ip:hover{
+  box-shadow: 0px 0px 3px 2px #94b5be;
+}
